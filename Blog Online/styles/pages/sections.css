@@ -1,0 +1,30 @@
+/* BLOG, LIFESTYLE, BEAUTY */
+
+.blog, .lifestyle, .beauty {
+    margin: 1em;
+}
+
+.grid-blog-paragraph, .grid-lifestyle-paragraph, .grid-beauty-paragraph {
+    align-self: flex-start;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.grid-blog-title, .grid-lifestyle-title, .grid-beauty-title {
+    font-size: 3em;
+}
+
+.grid-blog-logo, .grid-lifestyle-logo, .grid-beauty-logo {
+    font-size: 2em;
+    text-align: right;
+    font-weight: 300;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+    
+    .grid {
+        margin: 2em;
+    }
+}

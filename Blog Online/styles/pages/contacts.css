@@ -1,0 +1,50 @@
+.contacts {
+    color: var(--color--dark);
+    text-align: center;
+    margin: 4em auto;
+    width: 20vw;
+}
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+}
+
+.contacts-textarea {
+    resize: none;
+    font-size: 18px;
+}
+
+.contacts-send-btn {
+    border: 0;
+    padding: 1em;
+    color: #fff;
+    font-size: 18px;
+    background-color: var(--color--dark);
+}
+
+#name, #email, .contacts-textarea {
+    border: 0;
+    padding: 1em;
+    background-color: #eee;
+}
+
+.contacts-find {
+    margin-top: 4em;
+    font-size: 1.5em;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+    
+    .contacts {
+        width: 70vw;
+    }
+
+    .contacts-textarea {
+        height: 40px;
+    }
+}

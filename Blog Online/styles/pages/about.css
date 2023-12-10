@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    margin: 5em;
+}
+
+.about-paragraph {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.about-logo {
+    font-size: 4em;
+    font-weight: 300;
+    align-self: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+    
+    .about {
+        flex-direction: column;
+        margin: 2em;
+        text-align: left;
+    }
+
+    .about-logo {
+        font-size: 2em;
+    }
+}

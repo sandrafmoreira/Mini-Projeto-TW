@@ -1,0 +1,22 @@
+.favorites {
+    margin: 8em;
+}
+
+.favorites-link {
+    color: var(--color--brown);
+}
+
+.favorites-paragraph {
+    line-height: 2em;
+    font-size: 22px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+    
+    .favorites {
+        margin: 3em;
+        text-align: center;
+    }
+}

@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3em;
+}
+
+.footer-svg {
+    display: flex;
+    gap: 2em;
+}
+
+.footer-headline {
+    font-weight: 300;
+}
+
+.footer-links {
+    display: flex;
+    gap: 5em;
+    font-weight: 800;
+}
+
+.footer-links a:hover {
+    color: var(--color--lightgrey);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 5em 0;
+        place-items: center;
+        
+    }
+}

@@ -1,0 +1,49 @@
+.login {
+    margin: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 22px;
+}
+
+#email, #pw {
+    border: 0;
+    background-color: #eee;
+    padding: 1em;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.login-link {
+    color: var(--color--brown);
+}
+
+.login-link, .login-paragraph {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.login-btn {
+    border: 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+    
+    .login {
+        margin: 2em;
+    }
+    
+    .login-form {
+        display: flex;
+        flex-direction: column;
+    }
+}

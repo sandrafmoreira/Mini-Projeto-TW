@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+
+@import url(./pages/index.css); 
+ 
+/* pages */
+@import url(./pages/article.css);
+@import url(./pages/sections.css); /*BLOG, LIFESTYLE, BEAUTY*/
+@import url(./pages/favorites.css); 
+@import url(./pages/login.css); 
+@import url(./pages/about.css);
+@import url(./pages/contacts.css); 
+
+/* components */
+@import url(./components/navbar.css); 
+@import url(./components/newsletter.css);
+@import url(./components/footer.css); 
